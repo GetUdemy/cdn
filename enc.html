@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <title>JavaScript Encryption and Decryption</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="http://www.getudemy.com/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="http://www.vincentcheung.ca/base.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.vincentcheung.ca/smallheader.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.vincentcheung.ca/jsencryption/style.css" />
+    <script type="text/javascript" src="http://www.vincentcheung.ca/jsencryption/jsencryption.js"></script>
+    <script type="text/javascript" src="http://www.vincentcheung.ca/jsencryption/jsencryptionform.js"></script>
+
+    <style type="text/css">
+        #content-left{position:relative;float:left;width:160px}#content-right{position:relative;width:100%;padding:0}#content h3{text-align:center;line-height:100%;padding-bottom:.5em}#content p{padding-top:0}#content form{padding-bottom:2em}#container{margin:0 auto;padding-top:0;text-align:left;width:926px}
+    </style>
+</head>
+
+<body onload="load()">
+    <div id="container">
+        <div id="content" style="position: relative">
+            <div id="content-right">
+                <form name="key" action="#" onsubmit="return false;">
+                    <h3>Key</h3>
+
+                    <p align="center">
+                        <input type="text" name="text" id="passwordText" maxlength="1024" />
+                        <br />
+                        <input type="button" value=" Random " onclick="document.key.text.value = randomPassword(8);" /> &nbsp;
+                        <input type="button" value=" Clear " onclick="document.key.text.value = '';" /> &nbsp;
+                        <input type="button" value=" Select " onclick="document.key.text.select();" />
+                    </p>
+                </form>
+
+                <form name="plain" action="#" onsubmit="return false;">
+                    <h3>Plain Text</h3>
+                    <p align="center">
+                        <textarea name="text" id="plainText" rows="10"></textarea>
+
+                        <br />
+                        <input type="button" name="encrypt" value=" Encrypt " onclick="encryptFormText();" /> &nbsp;
+                        <input type="button" value=" Clear " onclick="document.plain.text.value = '';" /> &nbsp;
+                        <input type="button" value=" Select " onclick="document.plain.text.select();" />
+                    </p>
+                </form>
+
+
+                <form name="cipher" action="#" onsubmit="return false;">
+                    <h3>Cipher Text</h3>
+                    <p align="center">
+                        <textarea name="text" id="cipherText" rows="10"></textarea>
+
+                        <br />
+                        <input type="button" name="decrypt" value=" Decrypt " onclick="decryptFormText();" /> &nbsp;
+                        <input type="button" value=" Clear " onclick="document.cipher.text.value = '';" /> &nbsp;
+                        <input type="button" value=" Select " onclick="document.cipher.text.select();" />
+                    </p>
+                </form>
+
+                <h3>HTML Code</h3>
+                <form name="encryptedCode" action="#" onsubmit="return false;">
+                    <p align="center">
+                        <textarea name="text" id="codeText" rows="10" wrap="off" readonly="" onclick="this.focus(); this.select();"></textarea>
+                        <br />
+                        <input type="radio" name="codeType" value="hide" checked onclick="genSampleCode();"> Standard &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="codeType" value="show" onclick="genSampleCode();"> Inline &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="codeType" value="show" onclick="genSampleCode();"> ***
+                    </p>
+                </form>
+
+                <h3>HTML Test</h3>
+                <div id="encryptedTest">&nbsp;</div>
+
+            </div>
+            <div id="footer">
+            </div>
+        </div>
+
+</body>
+
+</html>
