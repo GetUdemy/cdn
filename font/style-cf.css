@@ -1,0 +1,1179 @@
+@font-face {
+  font-family: 'UdemyIcons';
+  src: url('UdemyIcons.eot'); /* IE9 Compat Modes */
+  src: url('UdemyIcons.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('UdemyIcons.woff2') format('woff2'), /* Super Modern Browsers */
+       url('UdemyIcons.woff') format('woff'), /* Pretty Modern Browsers */
+       url('UdemyIcons.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('UdemyIcons.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+[class^="ud_"], [class*=" ud_"] {
+	font-family: 'UdemyIcons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ud_i_delete:before {
+	content: "\e75a";
+}
+.ud_circle-loader:before {
+	content: "\e779";
+}
+.ud_what-certificate:before {
+	content: "\e725";
+}
+.ud_how-discover:before {
+	content: "\e751";
+}
+.ud_how-learn:before {
+	content: "\e752";
+}
+.ud_how-master:before {
+	content: "\e753";
+}
+.ud_join-course:before {
+	content: "\e754";
+}
+.ud_join-hours:before {
+	content: "\e755";
+}
+.ud_join-students:before {
+	content: "\e756";
+}
+.ud_what-30day:before {
+	content: "\e757";
+}
+.ud_what-desktop:before {
+	content: "\e758";
+}
+.ud_what-lifetime:before {
+	content: "\e759";
+}
+.ud_plus:before {
+	content: "\e729";
+}
+.ud_google:before {
+	content: "\e62c";
+}
+.ud_arabic:before {
+	content: "\e77a";
+}
+.ud_hebrew:before {
+	content: "\e77b";
+}
+.ud_japanese:before {
+	content: "\e77c";
+}
+.ud_spanish:before {
+	content: "\e77d";
+}
+.ud_e-commerce:before {
+	content: "\61";
+}
+.ud_development-tools:before {
+	content: "\e726";
+}
+.ud_personal-development2:before {
+	content: "\e661";
+}
+.ud_personal-transformation:before {
+	content: "\e724";
+}
+.ud_3d-and-animation:before {
+	content: "\e600";
+}
+.ud_academics:before {
+	content: "\e601";
+}
+.ud_advertising:before {
+	content: "\e602";
+}
+.ud_affiliate-marketing:before {
+	content: "\e603";
+}
+.ud_analytics-and-automation:before {
+	content: "\e604";
+}
+.ud_apple:before {
+	content: "\e605";
+}
+.ud_architectural-design:before {
+	content: "\e607";
+}
+.ud_arts-and-crafts:before {
+	content: "\e608";
+}
+.ud_beauty-and-makeup:before {
+	content: "\e609";
+}
+.ud_black-and-white:before {
+	content: "\e60a";
+}
+.ud_branding:before {
+	content: "\e60b";
+}
+.ud_business-law:before {
+	content: "\e60c";
+}
+.ud_business:before {
+	content: "\e60d";
+}
+.ud_career-development:before {
+	content: "\e60e";
+}
+.ud_chinese:before {
+	content: "\e60f";
+}
+.ud_college-entry-exam:before {
+	content: "\e610";
+}
+.ud_commercial-photography:before {
+	content: "\e611";
+}
+.ud_communications:before {
+	content: "\e612";
+}
+.ud_content-marketing:before {
+	content: "\e613";
+}
+.ud_creativity:before {
+	content: "\e614";
+}
+.ud_dance:before {
+	content: "\e615";
+}
+.ud_data-and-analytics:before {
+	content: "\e616";
+}
+.ud_databases:before {
+	content: "\e617";
+}
+.ud_design-thinking:before {
+	content: "\e618";
+}
+.ud_design-tools:before {
+	content: "\e619";
+}
+.ud_design:before {
+	content: "\e61a";
+}
+.ud_development:before {
+	content: "\e61b";
+}
+.ud_dieting:before {
+	content: "\e61c";
+}
+.ud_digital-marketing:before {
+	content: "\e61d";
+}
+.ud_digital-photography:before {
+	content: "\e61e";
+}
+.ud_educational-development:before {
+	content: "\e61f";
+}
+.ud_english:before {
+	content: "\e620";
+}
+.ud_entrepreneurship:before {
+	content: "\e621";
+}
+.ud_fashion:before {
+	content: "\e622";
+}
+.ud_finance:before {
+	content: "\e623";
+}
+.ud_fitness:before {
+	content: "\e624";
+}
+.ud_food-and-beverage:before {
+	content: "\e625";
+}
+.ud_french:before {
+	content: "\e626";
+}
+.ud_game-design:before {
+	content: "\e627";
+}
+.ud_game-development:before {
+	content: "\e628";
+}
+.ud_gaming:before {
+	content: "\e629";
+}
+.ud_general-health:before {
+	content: "\e62a";
+}
+.ud_german:before {
+	content: "\e62b";
+}
+.ud_grad-entry-exam:before {
+	content: "\e62d";
+}
+.ud_graphic-design:before {
+	content: "\e62e";
+}
+.ud_growth-hacking:before {
+	content: "\e62f";
+}
+.ud_happiness:before {
+	content: "\e630";
+}
+.ud_hardware:before {
+	content: "\e631";
+}
+.ud_health-and-fitness:before {
+	content: "\e632";
+}
+.ud_home-business:before {
+	content: "\e634";
+}
+.ud_home-improvement:before {
+	content: "\e635";
+}
+.ud_human-resources:before {
+	content: "\e636";
+}
+.ud_humanities:before {
+	content: "\e637";
+}
+.ud_industry:before {
+	content: "\e638";
+}
+.ud_influence:before {
+	content: "\e639";
+}
+.ud_instructional-design:before {
+	content: "\e63a";
+}
+.ud_instruments:before {
+	content: "\e63b";
+}
+.ud_interior-design:before {
+	content: "\e63c";
+}
+.ud_international-high-school:before {
+	content: "\e63d";
+}
+.ud_intuit:before {
+	content: "\e63e";
+}
+.ud_it-certification:before {
+	content: "\e63f";
+}
+.ud_it-and-software:before {
+	content: "\e640";
+}
+.ud_italian:before {
+	content: "\e641";
+}
+.ud_landscape:before {
+	content: "\e643";
+}
+.ud_language:before {
+	content: "\e644";
+}
+.ud_latin:before {
+	content: "\e645";
+}
+.ud_leadership:before {
+	content: "\e646";
+}
+.ud_lifestyle:before {
+	content: "\e647";
+}
+.ud_management:before {
+	content: "\e648";
+}
+.ud_marketing-fundamentals:before {
+	content: "\e649";
+}
+.ud_marketing:before {
+	content: "\e64a";
+}
+.ud_math-and-science:before {
+	content: "\e64b";
+}
+.ud_media:before {
+	content: "\e64c";
+}
+.ud_meditation:before {
+	content: "\e64d";
+}
+.ud_memory:before {
+	content: "\e64e";
+}
+.ud_mental-health:before {
+	content: "\e64f";
+}
+.ud_microsoft:before {
+	content: "\e650";
+}
+.ud_mobile-apps:before {
+	content: "\e651";
+}
+.ud_mobile-photography:before {
+	content: "\e652";
+}
+.ud_motivation:before {
+	content: "\e653";
+}
+.ud_music-fundamentals:before {
+	content: "\e654";
+}
+.ud_music-software:before {
+	content: "\e655";
+}
+.ud_music-techniques:before {
+	content: "\e656";
+}
+.ud_music:before {
+	content: "\e657";
+}
+.ud_network-and-security:before {
+	content: "\e658";
+}
+.ud_non-digital-marketing:before {
+	content: "\e659";
+}
+.ud_nutrition:before {
+	content: "\e65a";
+}
+.ud_office-productivity:before {
+	content: "\e65b";
+}
+.ud_operating-systems:before {
+	content: "\e65c";
+}
+.ud_operations:before {
+	content: "\e65d";
+}
+.ud_oracle:before {
+	content: "\e65e";
+}
+.ud_parenting-and-relationships:before {
+	content: "\e65f";
+}
+.ud_personal-brand-building:before {
+	content: "\e660";
+}
+.ud_personal-development:before {
+	content: "\e662";
+}
+.ud_personal-finance:before {
+	content: "\e663";
+}
+.ud_pet-care-and-training:before {
+	content: "\e664";
+}
+.ud_photography-fundamentals:before {
+	content: "\e665";
+}
+.ud_photography-tools:before {
+	content: "\e666";
+}
+.ud_photography:before {
+	content: "\e667";
+}
+.ud_portraits:before {
+	content: "\e668";
+}
+.ud_portuguese:before {
+	content: "\e669";
+}
+.ud_product-marketing:before {
+	content: "\e66a";
+}
+.ud_production:before {
+	content: "\e66b";
+}
+.ud_productivity:before {
+	content: "\e66c";
+}
+.ud_programming-languages:before {
+	content: "\e66d";
+}
+.ud_project-management:before {
+	content: "\e66e";
+}
+.ud_public-relations:before {
+	content: "\e66f";
+}
+.ud_real-estate:before {
+	content: "\e670";
+}
+.ud_religion-and-spirituality:before {
+	content: "\e671";
+}
+.ud_russian:before {
+	content: "\e672";
+}
+.ud_safety-and-first-aid:before {
+	content: "\e673";
+}
+.ud_sales:before {
+	content: "\e674";
+}
+.ud_salesforce:before {
+	content: "\e675";
+}
+.ud_sap:before {
+	content: "\e676";
+}
+.ud_search-engine-optimization:before {
+	content: "\e677";
+}
+.ud_security:before {
+	content: "\e678";
+}
+.ud_self-defense:before {
+	content: "\e679";
+}
+.ud_self-esteem:before {
+	content: "\e67a";
+}
+.ud_social-media-marketing:before {
+	content: "\e67b";
+}
+.ud_social-science:before {
+	content: "\e67c";
+}
+.ud_software-engineering:before {
+	content: "\e67d";
+}
+.ud_software-testing:before {
+	content: "\e67e";
+}
+.ud_sports:before {
+	content: "\e680";
+}
+.ud_strategy:before {
+	content: "\e681";
+}
+.ud_stress-management:before {
+	content: "\e682";
+}
+.ud_teacher-training:before {
+	content: "\e683";
+}
+.ud_teaching-tools:before {
+	content: "\e684";
+}
+.ud_test-prep:before {
+	content: "\e685";
+}
+.ud_test-taking-skills:before {
+	content: "\e686";
+}
+.ud_travel-photography:before {
+	content: "\e687";
+}
+.ud_travel:before {
+	content: "\e688";
+}
+.ud_user-experience:before {
+	content: "\e689";
+}
+.ud_video-design:before {
+	content: "\e68a";
+}
+.ud_video-and-mobile-marketing:before {
+	content: "\e68b";
+}
+.ud_vocal:before {
+	content: "\e68c";
+}
+.ud_web-design:before {
+	content: "\e68d";
+}
+.ud_web-development:before {
+	content: "\e68e";
+}
+.ud_wedding-photography:before {
+	content: "\e68f";
+}
+.ud_wildlife-photography:before {
+	content: "\e690";
+}
+.ud_yoga:before {
+	content: "\e691";
+}
+.ud_google_big:before {
+	content: "\e6be";
+}
+.ud_arabic_big:before {
+	content: "\e77e";
+}
+.ud_hebrew_big:before {
+	content: "\e77f";
+}
+.ud_japanese_big:before {
+	content: "\e780";
+}
+.ud_spanish_big:before {
+	content: "\e781";
+}
+.ud_development-tools_big:before {
+	content: "\e727";
+}
+.ud_e-commerce_big:before {
+	content: "\e728";
+}
+.ud_3d-and-animation_big:before {
+	content: "\e692";
+}
+.ud_academics_big:before {
+	content: "\e693";
+}
+.ud_advertising_big:before {
+	content: "\e694";
+}
+.ud_affiliate-marketing_big:before {
+	content: "\e695";
+}
+.ud_analytics-and-automation_big:before {
+	content: "\e696";
+}
+.ud_apple_big:before {
+	content: "\e697";
+}
+.ud_architectural-design_big:before {
+	content: "\e699";
+}
+.ud_arts-and-crafts_big:before {
+	content: "\e69a";
+}
+.ud_beauty-and-makeup_big:before {
+	content: "\e69b";
+}
+.ud_black-and-white_big:before {
+	content: "\e69c";
+}
+.ud_branding_big:before {
+	content: "\e69d";
+}
+.ud_business-law_big:before {
+	content: "\e69e";
+}
+.ud_business_big:before {
+	content: "\e69f";
+}
+.ud_career-development_big:before {
+	content: "\e6a0";
+}
+.ud_chinese_big:before {
+	content: "\e6a1";
+}
+.ud_college-entry-exam_big:before {
+	content: "\e6a2";
+}
+.ud_commercial-photography_big:before {
+	content: "\e6a3";
+}
+.ud_communications_big:before {
+	content: "\e6a4";
+}
+.ud_content-marketing_big:before {
+	content: "\e6a5";
+}
+.ud_creativity_big:before {
+	content: "\e6a6";
+}
+.ud_dance_big:before {
+	content: "\e6a7";
+}
+.ud_data-and-analytics_big:before {
+	content: "\e6a8";
+}
+.ud_databases_big:before {
+	content: "\e6a9";
+}
+.ud_design-thinking_big:before {
+	content: "\e6aa";
+}
+.ud_design-tools_big:before {
+	content: "\e6ab";
+}
+.ud_design_big:before {
+	content: "\e6ac";
+}
+.ud_development_big:before {
+	content: "\e6ad";
+}
+.ud_dieting_big:before {
+	content: "\e6ae";
+}
+.ud_digital-marketing_big:before {
+	content: "\e6af";
+}
+.ud_digital-photography_big:before {
+	content: "\e6b0";
+}
+.ud_educational-development_big:before {
+	content: "\e6b1";
+}
+.ud_english_big:before {
+	content: "\e6b2";
+}
+.ud_entrepreneurship_big:before {
+	content: "\e6b3";
+}
+.ud_fashion_big:before {
+	content: "\e6b4";
+}
+.ud_finance_big:before {
+	content: "\e6b5";
+}
+.ud_fitness_big:before {
+	content: "\e6b6";
+}
+.ud_food-and-beverage_big:before {
+	content: "\e6b7";
+}
+.ud_french_big:before {
+	content: "\e6b8";
+}
+.ud_game-design_big:before {
+	content: "\e6b9";
+}
+.ud_game-development_big:before {
+	content: "\e6ba";
+}
+.ud_gaming_big:before {
+	content: "\e6bb";
+}
+.ud_general-health_big:before {
+	content: "\e6bc";
+}
+.ud_german_big:before {
+	content: "\e6bd";
+}
+.ud_grad-entry-exam_big:before {
+	content: "\e6bf";
+}
+.ud_graphic-design_big:before {
+	content: "\e6c0";
+}
+.ud_growth-hacking_big:before {
+	content: "\e6c1";
+}
+.ud_happiness_big:before {
+	content: "\e6c2";
+}
+.ud_hardware_big:before {
+	content: "\e6c3";
+}
+.ud_health-and-fitness_big:before {
+	content: "\e6c4";
+}
+.ud_home-business_big:before {
+	content: "\e6c6";
+}
+.ud_home-improvement_big:before {
+	content: "\e6c7";
+}
+.ud_human-resources_big:before {
+	content: "\e6c8";
+}
+.ud_humanities_big:before {
+	content: "\e6c9";
+}
+.ud_industry_big:before {
+	content: "\e6ca";
+}
+.ud_influence_big:before {
+	content: "\e6cb";
+}
+.ud_instructional-design_big:before {
+	content: "\e6cc";
+}
+.ud_instruments_big:before {
+	content: "\e6cd";
+}
+.ud_interior-design_big:before {
+	content: "\e6ce";
+}
+.ud_international-high-school_big:before {
+	content: "\e6cf";
+}
+.ud_intuit_big:before {
+	content: "\e6d0";
+}
+.ud_it-certification_big:before {
+	content: "\e6d1";
+}
+.ud_it-and-software_big:before {
+	content: "\e6d2";
+}
+.ud_italian_big:before {
+	content: "\e6d3";
+}
+.ud_landscape_big:before {
+	content: "\e6d5";
+}
+.ud_language_big:before {
+	content: "\e6d6";
+}
+.ud_latin_big:before {
+	content: "\e6d7";
+}
+.ud_leadership_big:before {
+	content: "\e6d8";
+}
+.ud_lifestyle_big:before {
+	content: "\e6d9";
+}
+.ud_management_big:before {
+	content: "\e6da";
+}
+.ud_marketing-fundamentals_big:before {
+	content: "\e6db";
+}
+.ud_marketing_big:before {
+	content: "\e6dc";
+}
+.ud_math-and-science_big:before {
+	content: "\e6dd";
+}
+.ud_media_big:before {
+	content: "\e6de";
+}
+.ud_meditation_big:before {
+	content: "\e6df";
+}
+.ud_memory_big:before {
+	content: "\e6e0";
+}
+.ud_mental-health_big:before {
+	content: "\e6e1";
+}
+.ud_microsoft_big:before {
+	content: "\e6e2";
+}
+.ud_mobile-apps_big:before {
+	content: "\e6e3";
+}
+.ud_mobile-photography_big:before {
+	content: "\e6e4";
+}
+.ud_motivation_big:before {
+	content: "\e6e5";
+}
+.ud_music-fundamentals_big:before {
+	content: "\e6e6";
+}
+.ud_music-software_big:before {
+	content: "\e6e7";
+}
+.ud_music-techniques_big:before {
+	content: "\e6e8";
+}
+.ud_music_big:before {
+	content: "\e6e9";
+}
+.ud_network-and-security_big:before {
+	content: "\e6ea";
+}
+.ud_non-digital-marketing_big:before {
+	content: "\e6eb";
+}
+.ud_nutrition_big:before {
+	content: "\e6ec";
+}
+.ud_office-productivity_big:before {
+	content: "\e6ed";
+}
+.ud_operating-systems_big:before {
+	content: "\e6ee";
+}
+.ud_operations_big:before {
+	content: "\e6ef";
+}
+.ud_oracle_big:before {
+	content: "\e6f0";
+}
+.ud_parenting-and-relationships_big:before {
+	content: "\e6f1";
+}
+.ud_personal-brand-building_big:before {
+	content: "\e6f2";
+}
+.ud_personal-development_big:before {
+	content: "\e6f3";
+}
+.ud_personal-finance_big:before {
+	content: "\e6f4";
+}
+.ud_personal-transformation_big:before {
+	content: "\e6f5";
+}
+.ud_pet-care-and-training_big:before {
+	content: "\e6f6";
+}
+.ud_photography-fundamentals_big:before {
+	content: "\e6f7";
+}
+.ud_photography-tools_big:before {
+	content: "\e6f8";
+}
+.ud_photography_big:before {
+	content: "\e6f9";
+}
+.ud_portraits_big:before {
+	content: "\e6fa";
+}
+.ud_portuguese_big:before {
+	content: "\e6fb";
+}
+.ud_product-marketing_big:before {
+	content: "\e6fc";
+}
+.ud_production_big:before {
+	content: "\e6fd";
+}
+.ud_productivity_big:before {
+	content: "\e6fe";
+}
+.ud_programming-languages_big:before {
+	content: "\e6ff";
+}
+.ud_project-management_big:before {
+	content: "\e700";
+}
+.ud_public-relations_big:before {
+	content: "\e701";
+}
+.ud_real-estate_big:before {
+	content: "\e702";
+}
+.ud_religion-and-spirituality_big:before {
+	content: "\e703";
+}
+.ud_russian_big:before {
+	content: "\e704";
+}
+.ud_safety-and-first-aid_big:before {
+	content: "\e705";
+}
+.ud_sales_big:before {
+	content: "\e706";
+}
+.ud_salesforce_big:before {
+	content: "\e707";
+}
+.ud_sap_big:before {
+	content: "\e708";
+}
+.ud_search-engine-optimization_big:before {
+	content: "\e709";
+}
+.ud_security_big:before {
+	content: "\e70a";
+}
+.ud_self-defense_big:before {
+	content: "\e70b";
+}
+.ud_self-esteem_big:before {
+	content: "\e70c";
+}
+.ud_social-media-marketing_big:before {
+	content: "\e70d";
+}
+.ud_social-science_big:before {
+	content: "\e70e";
+}
+.ud_software-engineering_big:before {
+	content: "\e70f";
+}
+.ud_software-testing_big:before {
+	content: "\e710";
+}
+.ud_sports_big:before {
+	content: "\e712";
+}
+.ud_strategy_big:before {
+	content: "\e713";
+}
+.ud_stress-management_big:before {
+	content: "\e714";
+}
+.ud_teacher-training_big:before {
+	content: "\e715";
+}
+.ud_teaching-tools_big:before {
+	content: "\e716";
+}
+.ud_test-prep_big:before {
+	content: "\e717";
+}
+.ud_test-taking-skills_big:before {
+	content: "\e718";
+}
+.ud_travel-photography_big:before {
+	content: "\e719";
+}
+.ud_travel_big:before {
+	content: "\e71a";
+}
+.ud_user-experience_big:before {
+	content: "\e71b";
+}
+.ud_video-design_big:before {
+	content: "\e71c";
+}
+.ud_video-and-mobile-marketing_big:before {
+	content: "\e71d";
+}
+.ud_vocal_big:before {
+	content: "\e71e";
+}
+.ud_web-design_big:before {
+	content: "\e71f";
+}
+.ud_web-development_big:before {
+	content: "\e720";
+}
+.ud_wedding-photography_big:before {
+	content: "\e721";
+}
+.ud_wildlife-photography_big:before {
+	content: "\e722";
+}
+.ud_yoga_big:before {
+	content: "\e723";
+}
+.ud_icon-article:before {
+	content: "\e6c5";
+}
+.ud_icon-arrow-right:before {
+	content: "\e642";
+}
+.ud_icon-arrow-left:before {
+	content: "\e67f";
+}
+.ud_icon-arrow-up:before {
+	content: "\e698";
+}
+.ud_icon-check:before {
+	content: "\e606";
+}
+.ud_icon-arrow-down:before {
+	content: "\e633";
+}
+.ud_i_add:before {
+	content: "\e72a";
+}
+.ud_i_announcements:before {
+	content: "\e72b";
+}
+.ud_i_bell:before {
+	content: "\e72c";
+}
+.ud_i_certificate:before {
+	content: "\e72d";
+}
+.ud_i_checkmark:before {
+	content: "\e72e";
+}
+.ud_i_clock:before {
+	content: "\e72f";
+}
+.ud_i_close:before {
+	content: "\e730";
+}
+.ud_i_curriculum:before {
+	content: "\e731";
+}
+.ud_i_discussions:before {
+	content: "\e732";
+}
+.ud_i_downlowad:before {
+	content: "\e733";
+}
+.ud_i_file:before {
+	content: "\e734";
+}
+.ud_i_filter:before {
+	content: "\e735";
+}
+.ud_i_heart:before {
+	content: "\e736";
+}
+.ud_i_image:before {
+	content: "\e737";
+}
+.ud_i_info:before {
+	content: "\e738";
+}
+.ud_i_like:before {
+	content: "\e739";
+}
+.ud_i_link:before {
+	content: "\e73a";
+}
+.ud_i_menu:before {
+	content: "\e73b";
+}
+.ud_i_mobile:before {
+	content: "\e73c";
+}
+.ud_i_money-back:before {
+	content: "\e73d";
+}
+.ud_i_next:before {
+	content: "\e73e";
+}
+.ud_i_notes:before {
+	content: "\e73f";
+}
+.ud_i_play-circle:before {
+	content: "\e740";
+}
+.ud_i_previous:before {
+	content: "\e741";
+}
+.ud_i_rocket:before {
+	content: "\e742";
+}
+.ud_i_search-plus:before {
+	content: "\e743";
+}
+.ud_i_search:before {
+	content: "\e744";
+}
+.ud_i_settings:before {
+	content: "\e745";
+}
+.ud_i_share:before {
+	content: "\e746";
+}
+.ud_i_star-half:before {
+	content: "\e747";
+}
+.ud_i_star:before {
+	content: "\e748";
+}
+.ud_i_stop:before {
+	content: "\e749";
+}
+.ud_i_students:before {
+	content: "\e74a";
+}
+.ud_i_support:before {
+	content: "\e74b";
+}
+.ud_i_tag:before {
+	content: "\e74c";
+}
+.ud_i_user:before {
+	content: "\e74d";
+}
+.ud_i_volume-up:before {
+	content: "\e74e";
+}
+.ud_i_warning:before {
+	content: "\e74f";
+}
+.ud_i_website:before {
+	content: "\e750";
+}
+.ud_icon-drawer:before {
+	content: "\e75b";
+}
+.ud_icon-code:before {
+	content: "\e75c";
+}
+.ud_icon-down:before {
+	content: "\e75d";
+}
+.ud_icon-home:before {
+	content: "\e773";
+}
+.ud_icon-edit:before {
+	content: "\e774";
+}
+.ud_icon-logout:before {
+	content: "\e775";
+}
+.ud_icon-sound:before {
+	content: "\e776";
+}
+.ud_icon-overflow:before {
+	content: "\e777";
+}
+.ud_icon-up:before {
+	content: "\e75e";
+}
+.ud_icon-facebook:before {
+	content: "\e75f";
+}
+.ud_icon-twitter:before {
+	content: "\e760";
+}
+.ud_icon-googleplus:before {
+	content: "\e761";
+}
+.ud_icon-linkedin:before {
+	content: "\e762";
+}
+.ud_icon-youtube:before {
+	content: "\e763";
+}
+.ud_icon-delete:before {
+	content: "\e764";
+}
+.ud_icon-pause:before {
+	content: "\e765";
+}
+.ud_icon-previous:before {
+	content: "\e766";
+}
+.ud_icon-next:before {
+	content: "\e767";
+}
+.ud_icon-play:before {
+	content: "\e76f";
+}
+.ud_icon-rewind:before {
+	content: "\e76c";
+}
+.ud_icon-fastforward:before {
+	content: "\e76d";
+}
+.ud_icon-captions:before {
+	content: "\e76e";
+}
+.ud_icon-closedCaption:before {
+	content: "\e778";
+}
+.ud_icon-chromecast:before {
+	content: "\e76a";
+}
+.ud_icon-airplay:before {
+	content: "\e76b";
+}
+.ud_icon-fullscreen:before {
+	content: "\e768";
+}
+.ud_icon-exitFullscreen:before {
+	content: "\e769";
+}
+.ud_icon-schedule:before {
+	content: "\e770";
+}
+.ud_icon-reminder:before {
+	content: "\e771";
+}
+.ud_icon-bookmark:before {
+	content: "\e772";
+}
