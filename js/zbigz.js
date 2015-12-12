@@ -1,13 +1,8 @@
 var objIframe = ''
 
-function decodeUrl(url){
-    url = (url + '===').slice(0, url.length + (url.length % 4));
-    return url.replace(/-/g, '+').replace(/_/g, '/');
-}
-
 function zbigz_insite(url, ref){
   var container = document.createElement('div') 
-  container.innerHTML = '<iframe id="BruzzyDownloadWnd" src="//zbigz.com/insite/?tf='+encodeURIComponent(url)+'&ref='+ref+'"'+'style="position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:999"'+'scrolling=0>'+'</iframe>'
+  container.innerHTML = '<iframe id="BruzzyDownloadWnd" src="//zbigz.com/insite/?tf='+base64_decode(url)+'&ref='+ref+'"'+'style="position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:999"'+'scrolling=0>'+'</iframe>'
   var rezultHtml = container.firstChild
   objIframe = rezultHtml
   document.body.appendChild(rezultHtml)
