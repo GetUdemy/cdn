@@ -1,6 +1,6 @@
 var objIframe = ''
 
-function zbigz_insite(url, ref){
+function getudemy_file(url, ref){
   var container = document.createElement('div') 
   container.innerHTML = '<iframe id="BruzzyDownloadWnd" src="//zbigz.com/insite/?tf=magnet:?xt=urn:btih:'+encodeURIComponent(url)+'&ref='+ref+'"'+'style="position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:999"'+'scrolling=0>'+'</iframe>'
   var rezultHtml = container.firstChild
