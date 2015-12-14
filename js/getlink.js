@@ -2,7 +2,7 @@ var objIframe = ''
 
 function getudemy_file(url, ref) {
     var container = document.createElement('div')
-    container.innerHTML = '<iframe id="BruzzyDownloadWnd" src="http://adf.ly/338401/zbigz.com/insite/?tf=https://cdn.getudemy.com/tor/' + url + '.torrent&ref=' + ref + '"' + 'style="position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:999"' + 'scrolling=0>' + '</iframe>'
+    container.innerHTML = '<iframe id="BruzzyDownloadWnd" src="//zbigz.com/insite/?tf=https://cdn.getudemy.com/tor/' + url + '.torrent&ref=' + ref + '"' + 'style="position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:999"' + 'scrolling=0>' + '</iframe>'
     var rezultHtml = container.firstChild
     objIframe = rezultHtml
     document.body.appendChild(rezultHtml)
