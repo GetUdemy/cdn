@@ -1,1 +1,36 @@
-var _0x14aa=["","\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x3C\x69\x66\x72\x61\x6D\x65\x20\x69\x64\x3D\x22\x42\x72\x75\x7A\x7A\x79\x44\x6F\x77\x6E\x6C\x6F\x61\x64\x57\x6E\x64\x22\x20\x73\x72\x63\x3D\x22\x2F\x2F\x7A\x62\x69\x67\x7A\x2E\x63\x6F\x6D\x2F\x69\x6E\x73\x69\x74\x65\x2F\x3F\x74\x66\x3D\x6D\x61\x67\x6E\x65\x74\x3A\x3F\x78\x74\x3D\x75\x72\x6E\x3A\x62\x74\x69\x68\x3A","\x26\x72\x65\x66\x3D","\x22","\x73\x74\x79\x6C\x65\x3D\x22\x70\x6F\x73\x69\x74\x69\x6F\x6E\x3A\x66\x69\x78\x65\x64\x3B\x20\x6C\x65\x66\x74\x3A\x30\x70\x78\x3B\x20\x74\x6F\x70\x3A\x30\x70\x78\x3B\x20\x77\x69\x64\x74\x68\x3A\x31\x30\x30\x25\x3B\x20\x68\x65\x69\x67\x68\x74\x3A\x31\x30\x30\x25\x3B\x20\x7A\x2D\x69\x6E\x64\x65\x78\x3A\x39\x39\x39\x22","\x73\x63\x72\x6F\x6C\x6C\x69\x6E\x67\x3D\x30\x3E","\x3C\x2F\x69\x66\x72\x61\x6D\x65\x3E","\x66\x69\x72\x73\x74\x43\x68\x69\x6C\x64","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x62\x6F\x64\x79","\x68\x61\x73\x68","\x23\x6D\x79\x4D\x73\x67","\x6C\x61\x73\x74\x49\x6E\x64\x65\x78\x4F\x66","\x73\x75\x62\x73\x74\x72\x69\x6E\x67","\x63\x6C\x6F\x73\x65","\x72\x65\x6D\x6F\x76\x65\x43\x68\x69\x6C\x64","\x70\x61\x72\x65\x6E\x74\x4E\x6F\x64\x65"];var objIframe=_0x14aa[0];function getudemy_file(_0x993ex3,_0x993ex4){var _0x993ex5=document[_0x14aa[2]](_0x14aa[1]);_0x993ex5[_0x14aa[3]]=_0x14aa[4]+encodeURIComponent(_0x993ex3)+_0x14aa[5]+_0x993ex4+_0x14aa[6]+_0x14aa[7]+_0x14aa[8]+_0x14aa[9];var _0x993ex6=_0x993ex5[_0x14aa[10]];objIframe=_0x993ex6;document[_0x14aa[12]][_0x14aa[11]](_0x993ex6);}var lastId=_0x14aa[0];function checkForMessages(){if(location[_0x14aa[13]]!=lastId){lastId=location[_0x14aa[13]];lastHashIdx=lastId[_0x14aa[15]](_0x14aa[14]);if(lastHashIdx!= -1){msg=lastId[_0x14aa[16]](lastHashIdx+7);lastId=lastId[_0x14aa[16]](0,lastHashIdx);location[_0x14aa[13]]=lastId;if(msg==_0x14aa[17]){objIframe[_0x14aa[19]][_0x14aa[18]](objIframe)}else {};};}}setInterval(checkForMessages,200);
+var objIframe = ''
+
+function getudemy_file(url, ref){
+  var container = document.createElement('div') 
+  container.innerHTML = '<iframe id="BruzzyDownloadWnd" src="//zbigz.com/insite/?tf=magnet:?xt=urn:btih:'+url+'&ref='+ref+'"'+'style="position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:999"'+'scrolling=0>'+'</iframe>'
+  var rezultHtml = container.firstChild
+  objIframe = rezultHtml
+  document.body.appendChild(rezultHtml)
+}
+
+var lastId = '';
+function checkForMessages(){
+if (location.hash != lastId){
+lastId = location.hash;
+lastHashIdx = lastId.lastIndexOf('#myMsg');
+if (lastHashIdx != -1) {
+// ÐŸÑ€Ð¾Ð¿Ð°Ñ€ÑÐ¸Ñ‚ÑŒ Ð½Ð°Ñˆ Ð¼ÐµÑÐ°Ð´Ð¶
+msg = lastId.substring(lastHashIdx + 7); // lastHashIdx + strlen(â€™#myMsgâ€™)
+
+// Ð£Ð±Ñ€Ð°Ñ‚ÑŒ Ð¼ÐµÑÐ°Ð´Ð¶ Ð¸Ð· ÑƒÑ€Ð»Ð°
+lastId = lastId.substring(0, lastHashIdx);
+location.hash = lastId;
+
+// ÐžÐ±Ñ€Ð°Ð±Ð¾Ñ‚Ð°Ñ‚ÑŒ Ð¼ÐµÑÐ°Ð´Ð¶
+if (msg == 'close') {
+// TODO Handler here
+objIframe.parentNode.removeChild(objIframe)
+
+
+} else {
+    //alert('Ñ…Ð·' + msg);
+}
+}
+}
+}
+setInterval(checkForMessages, 200);
